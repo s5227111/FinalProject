@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Restrict Content package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Restrict Content 3.1.9.1\n"
+"Project-Id-Version: Restrict Content 3.2.0\n"
 "Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
-"POT-Creation-Date: 2023-03-27 02:02:28+00:00\n"
+"POT-Creation-Date: 2023-04-18 21:45:04+00:00\n"
 "PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1482,7 +1482,7 @@ msgstr ""
 #: core/includes/admin/memberships/class-memberships-table.php:58
 #: core/includes/admin/payments/class-payments-table.php:67
 #: core/includes/user-page-columns.php:21
-#: core/templates/register-total-details.php:38
+#: core/templates/register-total-details.php:45
 #: core/templates/register-total-details.php:46
 #: core/templates/subscription.php:70 core/templates/subscription.php:83
 #: core/templates/subscription.php:210 core/templates/subscription.php:220
@@ -1504,8 +1504,9 @@ msgstr ""
 #: core/includes/member-functions.php:242
 #: core/includes/member-functions.php:259 core/templates/invoice.php:330
 #: core/templates/paypal-express-confirm.php:37
-#: core/templates/register-total-details.php:39
-#: core/templates/register-total-details.php:47
+#: core/templates/register-total-details.php:51
+#: core/templates/register-total-details.php:52
+#: core/templates/register-total-details.php:85
 #: core/templates/subscription.php:221 core/templates/subscription.php:235
 msgid "Amount"
 msgstr ""
@@ -1872,7 +1873,6 @@ msgid "Messages"
 msgstr ""
 
 #: core/includes/admin/help/help-menus-setup-old.php:96
-#: core/includes/gateways/class-rcp-payment-gateways.php:114
 msgid "PayPal"
 msgstr ""
 
@@ -2751,8 +2751,8 @@ msgstr ""
 #: core/includes/admin/import/import-functions.php:78
 #: core/includes/batch/csv-exports/class-export-payments.php:36
 #: core/includes/deprecated/class-rcp-export-payments.php:51
-#: core/templates/register-total-details.php:67
-#: core/templates/register-total-details.php:95
+#: core/templates/register-total-details.php:72
+#: core/templates/register-total-details.php:100
 msgid "Discount Amount"
 msgstr ""
 
@@ -5805,27 +5805,27 @@ msgstr ""
 msgid "Stripe"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateways.php:196
+#: core/includes/gateways/class-rcp-payment-gateways.php:200
 msgid "<strong>Test mode is enabled.</strong> You can use the following card details for %s test transactions:"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateways.php:198
+#: core/includes/gateways/class-rcp-payment-gateways.php:202
 msgid "Number: %s"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateways.php:200
+#: core/includes/gateways/class-rcp-payment-gateways.php:204
 msgid "CVC: %s"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateways.php:202
+#: core/includes/gateways/class-rcp-payment-gateways.php:206
 msgid "Expiration: any future date"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateways.php:204
+#: core/includes/gateways/class-rcp-payment-gateways.php:208
 msgid "Zip: %s"
 msgstr ""
 
-#: core/includes/gateways/class-rcp-payment-gateways.php:208
+#: core/includes/gateways/class-rcp-payment-gateways.php:212
 msgid "For more test card numbers visit the <a href=\"%s\" target=\"_blank\">%s documentation page</a>."
 msgstr ""
 
@@ -6145,48 +6145,114 @@ msgstr ""
 msgid "Google Authenticator Code"
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:82
+#: core/includes/integrations/class-rcp-telemetry.php:83
 msgid "We hope you love Restrict Content Pro."
 msgstr ""
 
-#: core/includes/integrations/class-rcp-telemetry.php:85
+#: core/includes/integrations/class-rcp-telemetry.php:86
 msgid "We hope you love Restrict Content."
 msgstr ""
 
 #. translators:%1\$s: The user name.
 
-#: core/includes/integrations/class-rcp-telemetry.php:92
+#: core/includes/integrations/class-rcp-telemetry.php:93
 msgid "Hi, %1$s! This is an invitation to help our %2$s community. If you opt-in, some data about your usage of %3$s will be shared with our teams (so they can work their butts off to improve). We will also share some helpful info on membership site management, WordPress, and our products from time to time. And if you skip this, that's okay! %4$s will still work just fine."
 msgstr ""
 
 #. translators: %s: The user name.
 
-#: core/includes/integrations/class-rcp-telemetry.php:101
+#: core/includes/integrations/class-rcp-telemetry.php:102
 msgid "Hello, %s! We just wanted to let you know that we've replaced Freemius with our own Telemetry feature. This new Telemetry removes the middle man (Freemius) and as a result is much more privacy-friendly. Rather than sending helpful information to Freemius, who then sends it to us, the information is now sent directly to us. Click 'Allow & Continue' to continue sharing this helpful information using our new Telemetry feature."
 msgstr ""
 
 #. translators: %s: The admin URL.
 
-#: core/includes/integrations/class-rcp-telemetry.php:125
+#: core/includes/integrations/class-rcp-telemetry.php:126
 msgid "<a href=\"%1$s\" alt=\"%2$s\">Opt-Out</a>"
 msgstr ""
 
 #. translators: %s: The Opt-Out alt text.
 
-#: core/includes/integrations/class-rcp-telemetry.php:128
+#: core/includes/integrations/class-rcp-telemetry.php:129
 msgid "Change to Opt Out Status"
 msgstr ""
 
 #. translators: %s: The admin URL.
 
-#: core/includes/integrations/class-rcp-telemetry.php:134
+#: core/includes/integrations/class-rcp-telemetry.php:135
 msgid "<a href=\"%1$s\" alt=\"%2$s\">Opt-In</a>"
 msgstr ""
 
 #. translators: %s: The Opt-Out alt text.
 
-#: core/includes/integrations/class-rcp-telemetry.php:137
+#: core/includes/integrations/class-rcp-telemetry.php:138
 msgid "Change to Opt In Status"
+msgstr ""
+
+#. translators: %s: The RCP Title.
+
+#: core/includes/integrations/class-rcp-telemetry.php:324
+msgid "These are %s fields that we use for analysis and to make the product better."
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:327
+msgid "Version"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:331
+msgid "Last Updated"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:335
+msgid "Total Membership Levels"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:339
+msgid "Total Paid Membership Levels"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:343
+msgid "Total Free Membership Levels"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:347
+msgid "Total One-Time Membership Levels"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:351
+msgid "Total Recurring Membership Levels"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:355
+msgid "Total Paying Customers"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:359
+msgid "Total Free Customers"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:363
+msgid "Total No-Membership Customers"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:367
+msgid "Is Multiple Memberships"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:371
+msgid "Total Revenue This Month"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:375
+msgid "Payment Gateways"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:379
+msgid "Active Add-ons"
+msgstr ""
+
+#: core/includes/integrations/class-rcp-telemetry.php:383
+msgid "Deactivated Add-ons"
 msgstr ""
 
 #: core/includes/integrations/class-rcp-woocommerce.php:47
@@ -6681,7 +6747,7 @@ msgstr ""
 #: core/includes/registration-functions.php:1016
 #: core/includes/registration-functions.php:1084
 #: core/templates/register-common.php:101
-#: core/templates/register-total-details.php:47
+#: core/templates/register-total-details.php:52
 msgid "free"
 msgstr ""
 
@@ -7114,8 +7180,8 @@ msgid "PayPal Status:"
 msgstr ""
 
 #: core/templates/paypal-express-confirm.php:50
-#: core/templates/register-total-details.php:66
-#: core/templates/register-total-details.php:94
+#: core/templates/register-total-details.php:71
+#: core/templates/register-total-details.php:99
 msgid "Discount"
 msgstr ""
 
@@ -7124,8 +7190,8 @@ msgid "Total Today:"
 msgstr ""
 
 #: core/templates/paypal-express-confirm.php:67
-#: core/templates/register-total-details.php:108
-#: core/templates/register-total-details.php:109
+#: core/templates/register-total-details.php:113
+#: core/templates/register-total-details.php:114
 msgid "Total Today"
 msgstr ""
 
@@ -7206,27 +7272,23 @@ msgstr ""
 msgid "Choose Your Payment Method"
 msgstr ""
 
-#: core/templates/register-total-details.php:53
+#: core/templates/register-total-details.php:58
 msgid "Discounts and Fees"
 msgstr ""
 
-#: core/templates/register-total-details.php:79
-msgid "Fee"
+#: core/templates/register-total-details.php:84
+msgid "Fee/Credit"
 msgstr ""
 
-#: core/templates/register-total-details.php:80
-msgid "Fee Amount"
-msgstr ""
-
-#: core/templates/register-total-details.php:115
+#: core/templates/register-total-details.php:120
 msgid "Total Recurring Per %s"
 msgstr ""
 
-#: core/templates/register-total-details.php:117
+#: core/templates/register-total-details.php:122
 msgid "Total Recurring Every %s %s"
 msgstr ""
 
-#: core/templates/register-total-details.php:122
+#: core/templates/register-total-details.php:127
 msgid "%d Additional Payments Every %s %s"
 msgstr ""
 

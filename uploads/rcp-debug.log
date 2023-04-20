@@ -14,3 +14,13 @@
 2023-4-18 22:36:11 - Starting rcp_check_member_counts() cron job.
 2023-4-18 22:36:11 - Exiting rcp_check_member_counts() - counts have already been added today.
 2023-4-18 22:36:11 - Starting rcp_mark_abandoned_payments() cron job.
+2023-4-20 19:07:41 - Starting rcp_check_for_expired_users() cron job.
+2023-4-20 19:07:41 - Starting rcp_check_for_soon_to_expire_users() cron job.
+2023-4-20 19:07:41 - Starting rcp_check_member_counts() cron job.
+2023-4-20 19:07:41 - Starting rcp_mark_abandoned_payments() cron job.
+2023-4-20 19:54:18 - RCP upgraded from version 3.5.27 to 3.5.28.
+2023-4-20 22:42:10 - Starting rcp_check_for_expired_users() cron job.
+2023-4-20 22:42:10 - Starting rcp_check_for_soon_to_expire_users() cron job.
+2023-4-20 22:42:10 - Starting rcp_check_member_counts() cron job.
+2023-4-20 22:42:10 - Exiting rcp_check_member_counts() - counts have already been added today.
+2023-4-20 22:42:10 - Starting rcp_mark_abandoned_payments() cron job.

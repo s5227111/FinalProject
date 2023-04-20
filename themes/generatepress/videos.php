@@ -13,7 +13,7 @@ get_header(); ?>
     <script>
     var iframe = document.querySelector('iframe');
     var player = new Vimeo.Player(iframe);
-    player.on('ended', function() {alert("test")});
+    player.on('ended', function() {$("#ex1").modal()});
     </script>
 </div>
 

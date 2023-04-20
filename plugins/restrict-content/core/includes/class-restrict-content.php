@@ -26,7 +26,7 @@ if ( ! class_exists( 'Restrict_Content_Pro' ) ) :
 	 * @since 3.0
 	 */
 	final class Restrict_Content_Pro {
-		const VERSION = '3.5.27';
+		const VERSION = '3.5.28';
 
 		/**
 		 * Stores the base slug for the extension.
@@ -437,6 +437,7 @@ if ( ! class_exists( 'Restrict_Content_Pro' ) ) :
 
 			// Integrations.
 			require_once RCP_PLUGIN_DIR . 'core/includes/integrations/class-rcp-telemetry.php';
+			require_once RCP_PLUGIN_DIR . 'core/includes/class-rcp-telemetry-info.php';
 
 			if ( file_exists( RCP_PLUGIN_DIR . 'pro/class-restrict-content-pro.php') ) {
 				require_once( RCP_PLUGIN_DIR . 'pro/class-restrict-content-pro.php' );
