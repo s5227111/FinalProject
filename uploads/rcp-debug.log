@@ -24,3 +24,16 @@
 2023-4-20 22:42:10 - Starting rcp_check_member_counts() cron job.
 2023-4-20 22:42:10 - Exiting rcp_check_member_counts() - counts have already been added today.
 2023-4-20 22:42:10 - Starting rcp_mark_abandoned_payments() cron job.
+2023-4-24 17:26:41 - wp_rcp_discounts table upgrade to 202003311 successful.
+2023-4-24 17:26:41 - wp_rcp_discounts table upgrade to 202003312 successful.
+2023-4-24 17:26:41 - wp_rcp_discounts table upgrade to 202003313 successful.
+2023-4-25 17:34:45 - wp_rcp_discounts table upgrade to 202003311 successful.
+2023-4-25 17:34:45 - wp_rcp_discounts table upgrade to 202003312 successful.
+2023-4-25 17:34:45 - wp_rcp_discounts table upgrade to 202003313 successful.
+2023-4-25 19:51:48 - wp_rcp_discounts table upgrade to 202003311 successful.
+2023-4-25 19:51:48 - wp_rcp_discounts table upgrade to 202003312 successful.
+2023-4-25 19:51:48 - wp_rcp_discounts table upgrade to 202003313 successful.
+2023-4-26 19:32:41 - Starting rcp_check_for_expired_users() cron job.
+2023-4-26 19:32:41 - Starting rcp_check_for_soon_to_expire_users() cron job.
+2023-4-26 19:32:43 - Starting rcp_check_member_counts() cron job.
+2023-4-26 19:32:43 - Starting rcp_mark_abandoned_payments() cron job.

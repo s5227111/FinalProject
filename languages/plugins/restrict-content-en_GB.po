@@ -1,0 +1,98 @@
+# Translation of Plugins - Membership Plugin &#8211; Restrict Content - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Membership Plugin &#8211; Restrict Content - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-28 12:28:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Membership Plugin &#8211; Restrict Content - Stable (latest release)\n"
+
+#: legacy/includes/settings.php:83
+msgid "Authors"
+msgstr "Authors"
+
+#: legacy/includes/metabox.php:24
+msgid "User Level"
+msgstr "User Level"
+
+#: legacy/includes/metabox.php:39
+msgid "Hide from Feed?"
+msgstr "Hide from Feed?"
+
+#: legacy/includes/metabox.php:27
+msgid "Choose the user level that can see this page / post"
+msgstr "Choose the user level that can see this page / post"
+
+#: legacy/includes/settings.php:23 legacy/includes/settings.php:185
+msgid "Restrict Content Settings"
+msgstr "Restrict Content Settings"
+
+#: core/includes/admin/settings/settings.php:81 legacy/includes/settings.php:36
+msgid "Options saved"
+msgstr "Options saved"
+
+#: legacy/includes/settings.php:48
+msgid "Short Code Messages"
+msgstr "Shortcode Messages"
+
+#: legacy/includes/settings.php:51
+msgid "Restricted Message"
+msgstr "Restricted Message"
+
+#: legacy/includes/settings.php:59
+msgid "When using the [restrict ... ] .... [/restrict] Short Code, this is the message displayed when a user does not have the appropriate permissions."
+msgstr "When using the [restrict ... ] .... [/restrict] Shortcode, this is the message displayed when a user does not have the appropriate permissions."
+
+#: legacy/includes/settings.php:60
+msgid "The <strong>{userlevel}</strong> tag will be automatically replaced with the permission level needed."
+msgstr "The <strong>{userlevel}</strong> tag will be automatically replaced with the permission level needed."
+
+#: legacy/includes/settings.php:65
+msgid "User Level Restriction Messages"
+msgstr "User Level Restriction Messages"
+
+#: legacy/includes/settings.php:76
+msgid "Editors"
+msgstr "Editors"
+
+#: legacy/includes/settings.php:79
+msgid "Message displayed when a user does not have permission to view Editor restricted content"
+msgstr "Message displayed when a user does not have permission to view Editor restricted content"
+
+#: legacy/includes/settings.php:86
+msgid "Message displayed when a user does not have permission to view Author restricted content"
+msgstr "Message displayed when a user does not have permission to view Author restricted content"
+
+#: legacy/includes/settings.php:90
+msgid "Contributors"
+msgstr "Contributors"
+
+#: legacy/includes/settings.php:93
+msgid "Message displayed when a user does not have permission to view Contributor restricted content"
+msgstr "Message displayed when a user does not have permission to view Contributor restricted content"
+
+#: legacy/includes/settings.php:97
+msgid "Subscribers"
+msgstr "Subscribers"
+
+#: legacy/includes/settings.php:100
+msgid "Message displayed when a user does not have permission to view Subscriber restricted content"
+msgstr "Message displayed when a user does not have permission to view Subscriber restricted content"
+
+#: core/includes/admin/settings/settings.php:1323
+#: legacy/includes/settings.php:151
+msgid "Save Options"
+msgstr "Save Options"
+
+#. Plugin Name of the plugin
+#: core/includes/admin/settings/settings.php:60
+msgid "Restrict Content"
+msgstr "Restrict Content"
+
+#: legacy/includes/metabox.php:42
+msgid "Hide the excerpt of this post / page from the Feed?"
+msgstr "Hide the excerpt of this post/page from the Feed?"

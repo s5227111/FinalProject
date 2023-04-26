@@ -20,3 +20,7 @@ GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2022 Auto
 
 Actual CSS can be found in /assets/css/ folder.
 */
+
+#wp-submit:hover {
+  background-color: brown !important;
+}
