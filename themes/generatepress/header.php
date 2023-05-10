@@ -13,6 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	
+	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
+	
 	<?php wp_head(); ?>
 </head>
 

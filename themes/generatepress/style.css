@@ -24,3 +24,16 @@ Actual CSS can be found in /assets/css/ folder.
 #wp-submit:hover {
   background-color: brown !important;
 }
+#post-142 {
+  text-align: center;
+  padding: 60px;
+}
+#content {
+  display: inline-block;
+}
+#page {
+  text-align: center;
+}
+#primary {
+  width: 100%;
+}
