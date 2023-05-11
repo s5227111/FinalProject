@@ -21,8 +21,16 @@ GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2022 Auto
 Actual CSS can be found in /assets/css/ folder.
 */
 
+:root {
+  /* set the variable value to the primary color */
+  --wpforms-button-background-color: #8d1800;
+}
+
 #wp-submit:hover {
-  background-color: brown !important;
+  background-color: #8d1800 !important;
+}
+#wpforms-submit-165 {
+  background-color: #8d1800 !important;
 }
 #post-142 {
   text-align: center;
